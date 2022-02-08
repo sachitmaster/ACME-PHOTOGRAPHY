@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME PHOTOGRAPHY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px 0px;
+            padding: 0px 0xp;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            padding: 0rem 11rem;
+            background: #eee;
+        }
+        main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            box-shadow: 30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+        }
+        .container1 {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            background-color: white;
+        }
+
+        .container2 {
+            /* height: 100vh; */
+            /* border: 2px solid black; */
+            width: 42%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container2 h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .container2 h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            font-size: 1.2rem;
+            color: #888;
+        }
+
+        .container2 button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2rem 0rem;
+            padding: 1rem 3rem;
+            border-radius: 50px;
+            border: 1px #ccc solid;
+            background-color: white;
+            color: #333;
+            font-size: 1rem;
+        }
+        .container2 button:hover{
+            background-color: rgb(250, 234, 234);
+            cursor: pointer;
+        }
+        .container3 {
+            /* border: 2px solid black; */
+            background-image: url('https://source.unsplash.com/De8wMYoSSBc');
+            width: 58%;
+            background-position: center;
+            background-size: cover;
+        }
+        .container4{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #333;
+            width: 100%;
+        }
+        .container4 h2{
+            border-left: 1px dotted white;
+            border-right: 1px dotted white;
+            margin: 1.5rem 0rem;
+            padding: 0rem 1rem;
+            color: white;
+        }
+        .container4 img{
+            display: block;
+            width: 100%;
+        }
+        .container5{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            padding-top: 2rem;
+            width: 100%;
+        }
+        .container5 p{
+            margin: 1rem 0rem;
+        }
+        .container5 img{
+            /* display: block; */
+            width: 100%;
+            padding-top: 2rem;
+        }
+        .container6{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+            line-height: 2rem;
+        }
+        .container6 h1{
+            font-size: 3rem;
+            margin: 2rem 0rem;
+            font-weight: 400;
+        }
+        .container6 p{
+            font-size: .9rem;
+        }
+        @media screen and (max-width:1024px) {
+            body{
+                padding: 0rem 5rem;
+            }
+        }
+        @media screen and (max-width:768px) {
+            body{
+                padding: 0rem 0rem;
+            }
+        }
+        @media screen and (max-width:720px) {
+            body{
+                padding: 0rem 0rem;
+            }
+            .container1{
+                display: flex;
+                flex-direction: column;
+                padding-top: 2rem;
+            }
+            .container2{
+                display: flex;
+                width: 100%;
+                text-align: center;
+            }
+            .container3{
+                height: 50vh;
+                width: 100%;
+                background-position: unset;
+            }
+            .container5 p{
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+    <div class="container1">
+        <div class="container2">
+            <h1>ACME PHOTOGRAPHY</h1>
+            <h2>Beautiful Natural Photography</h2>
+            <button>View Work</button>
+        </div>
+        <div class="container3">
+        </div>
+    </div>
+    <div class="container4">
+        <h2>Our Work</h2>
+        <img src="	https://source.unsplash.com/1600x900/?nature,water" alt="">
+    </div>
+    <div class="container5">
+        <h3>Photo One</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+        <img src="https://source.unsplash.com/1600x900/?nature,trees" alt="">
+    </div>
+    <div class="container5">
+        <h3>Photo Two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+        <img src="	https://source.unsplash.com/1600x900/?nature,flowers" alt="">
+    </div>
+    <div class="container5">
+        <h3>Photo Three</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+        <img src="https://source.unsplash.com/1600x900/?nature,animals" alt="">
+    </div>
+    <div class="container5">
+        <h3>Photo Four</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+        <img src="https://source.unsplash.com/1600x900/?nature,clouds" alt="">
+    </div>
+    <div class="container5">
+        <h3>Photo Five</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+    </div>
+</main>
+<div class="container6">
+    <h1>Get In Touch</h1>
+    <p>Email or Call us to set up a consult</p>
+    <p>Email: <b>Contact@acmephotos.test</b></p>
+    <p>Phone: <b>(617) 555-5555</b></p>
+</div>
+</body>
+
+</html>
